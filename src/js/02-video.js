@@ -5,7 +5,7 @@ const PLAYER_ID = 'vimeo-player';
 const CURRENT_TIME_KEY = 'videoplayer-current-time';
 
 
-const player = new VimeoPlayer(PLAYER_ID);
+const player = new Player(PLAYER_ID);
 const savedTime = JSON.parse(localStorage.getItem(CURRENT_TIME_KEY));
 
 if (savedTime) {
