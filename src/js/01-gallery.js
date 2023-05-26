@@ -23,7 +23,6 @@ function createGalleryItemsMarkup(items) {
     `;
   }).join('');
 }
-galleryContainer.insertAdjacentHTML('beforeend', itemsMarkup);
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
